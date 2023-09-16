@@ -6,7 +6,7 @@
 
 * clonez le repo de référence  
    ```
-   git clone git@github.com:ue12-p22/git-tp-clone-pull-for-teacher.git groupe2
+   git clone git@github.com:ue12-p23/git-tp-clone-pull-for-teacher.git groupe2
    cd groupe2
    ```
 * **ATTENTION**
@@ -21,11 +21,11 @@
   donc c'est important que vous enleviez bien le `remote origin` pour pas qu'on s'emmêle entre les deux (la référence et le public pour votre groupe)
 
 * créez sur github un repo public qui s'appelle genre  
-    <https://github.com/ue12-p22/git-tp-clone-pull-groupe2>
+    <https://github.com/ue12-p23/git-tp-clone-pull-groupe2>
 * et pour le remplir:
 
     ```
-    git remote add origin git@github.com:ue12-p22/git-tp-clone-pull-groupe2.git
+    git remote add origin git@github.com:ue12-p23/git-tp-clone-pull-groupe2.git
     git branch -M main
     git push -u origin main
   
