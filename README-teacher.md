@@ -21,14 +21,17 @@
   donc c'est important que vous enleviez bien le `remote origin` pour pas qu'on s'emmêle entre les deux (la référence et le public pour votre groupe)
 
 * créez sur github un repo public qui s'appelle genre  
-    <https://github.com/ue12-p23/git-tp-clone-pull-groupe2>
+  <https://github.com/ue12-p23/git-tp-clone-pull-groupe2>  
+  si vous pratiquez github sur la ligne de commande, ça donne
+  ```bash
+  gh repo create --public ue12-p23/git-tp-clone-pull-groupe2
+  ```
 * et pour le remplir:
 
     ```
     git remote add origin git@github.com:ue12-p23/git-tp-clone-pull-groupe2.git
     git branch -M main
     git push -u origin main
-  
     ```
 
 * ensuite dans le repo il y a un petit script qui s'appelle `publish.sh`
@@ -88,5 +91,5 @@ le README contient les instructions pour passer d'une étape à l'autre, mais vo
 
 ## historique
 
-dans une version plus ancienne, le repo de référence était privé, 
+dans une version plus ancienne, le repo de référence était privé,
 mais ça ne semble pas utile en fait
